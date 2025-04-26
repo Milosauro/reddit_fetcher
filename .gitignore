@@ -106,3 +106,6 @@ pyrightconfig.json
 # PyTest
 *.pytest_cache
 __pycache__/
+
+# Posts
+posts.json
