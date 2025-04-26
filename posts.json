@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1k85k06",
+    "title": "Use Standards Wisely - Clean Code",
+    "author": "__eraki__",
+    "upvotes": 0,
+    "score": 0,
+    "url": "https://www.reddit.com/r/Python/comments/1k85k06/use_standards_wisely_clean_code/",
+    "created_utc": 1745645312.0,
+    "num_comments": 17,
+    "is_self": true,
+    "selftext": "\"Standards make it easier to reuse ideas and components, recruit  people with relevant experience, encapsulate good ideas, and wire components together. However, the process of creating standards can sometimes take too long for industry to wait, and some standards lose touch with the real need of the adopters they are intended to serve.\"\n\r\nDr. Kevin Dean Wampler\n/ Clean Code\n\n\nIn my hummple opinion, Standards are mandatory to follow, but don't be fanatic.\n\nI'd like to hear yours!\r\n\r\n"
+  },
+  {
+    "id": "1k7zo60",
+    "title": "Saturday Daily Thread: Resource Request and Sharing! Daily Thread",
+    "author": "AutoModerator",
+    "upvotes": 5,
+    "score": 5,
+    "url": "https://www.reddit.com/r/Python/comments/1k7zo60/saturday_daily_thread_resource_request_and/",
+    "created_utc": 1745625634.0,
+    "num_comments": 0,
+    "is_self": true,
+    "selftext": "# Weekly Thread: Resource Request and Sharing 📚\n\nStumbled upon a useful Python resource? Or are you looking for a guide on a specific topic? Welcome to the Resource Request and Sharing thread!\n\n## How it Works:\n\n1. **Request**: Can't find a resource on a particular topic? Ask here!\n2. **Share**: Found something useful? Share it with the community.\n3. **Review**: Give or get opinions on Python resources you've used.\n\n## Guidelines:\n\n* Please include the type of resource (e.g., book, video, article) and the topic.\n* Always be respectful when reviewing someone else's shared resource.\n\n## Example Shares:\n\n1. **Book**: [\"Fluent Python\"](https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008) \\- Great for understanding Pythonic idioms.\n2. **Video**: [Python Data Structures](https://www.youtube.com/watch?v=pkYVOmU3MgA) \\- Excellent overview of Python's built-in data structures.\n3. **Article**: [Understanding Python Decorators](https://realpython.com/primer-on-python-decorators/) \\- A deep dive into decorators.\n\n## Example Requests:\n\n1. **Looking for**: Video tutorials on web scraping with Python.\n2. **Need**: Book recommendations for Python machine learning.\n\nShare the knowledge, enrich the community. Happy learning! 🌟"
+  },
+  {
+    "id": "1k7zcej",
+    "title": "What are some things that can be done on other IDEs but not on IDLE?",
+    "author": "PutPsychological9682",
+    "upvotes": 0,
+    "score": 0,
+    "url": "https://www.reddit.com/r/Python/comments/1k7zcej/what_are_some_things_that_can_be_done_on_other/",
+    "created_utc": 1745624672.0,
+    "num_comments": 42,
+    "is_self": true,
+    "selftext": "A while back I was taking a higher level python class, and my professor said that even though the beginners class required us to use IDLE,  she wants us to use Wing Personal because more advanced topics which she will cover can not be implemented on IDLE. "
+  },
+  {
+    "id": "1k7xqal",
+    "title": "Seeking a package/library that handles rectangles containing rectangles recursively",
+    "author": "SoldatLight",
+    "upvotes": 4,
+    "score": 4,
+    "url": "https://www.reddit.com/r/Python/comments/1k7xqal/seeking_a_packagelibrary_that_handles_rectangles/",
+    "created_utc": 1745620059.0,
+    "num_comments": 4,
+    "is_self": true,
+    "selftext": "Hi, I am trying to find some pointers to existing packages/libraries that can handle the rectangles containing rectangles.\n\n1. Each rectangle can contain multiple child rectangles.  Each child rectangles can also contain grand children rectangles.\n\n2. The location coordinates of the child rectangles are basing on the lower left corner of the parent rectangle relatively.  E.g., Rect A contains Rect B (at \\[1, 1\\]).  Draw A at \\[2, 2\\] of the canvas, then Rect B should be drawn at \\[3, 3\\] of the canvas.\n\n3. Each rectangle, child rectangle, ..., has an attribute denoting its rotation (0, 90, 180, 270 degs).  E.g., If the above Rect B is set to rotate 90 degs, it will be rotate 90 degs, then place at \\[1, 1\\] of the Rect A.\n\n4. All the placement and rotation, ..., are happening recursively.  I.e., when Rect B is rotated, its children also rotate respectively.\n\nThis seems to have quite common behaviors in diagramming/geometry programming practices.  Could some kind souls suggest good packages/libraries doing these?\n\nI have checked shapely.  However, it does not handle child rectangles very well.  The child rectangles are using the absolute coordinate, same as the parent rectangles.\n\n"
+  },
+  {
+    "id": "1k7uw2f",
+    "title": "Science 3d plots animation",
+    "author": "matheusvicra",
+    "upvotes": 3,
+    "score": 3,
+    "url": "https://www.reddit.com/r/Python/comments/1k7uw2f/science_3d_plots_animation/",
+    "created_utc": 1745612599.0,
+    "num_comments": 0,
+    "is_self": true,
+    "selftext": "**What My Project Does**\n\nI made a repository using python to create 3d plots and export them in video.\n\n **Target Audience**\n\nScience enthusiasts, professors, anyone who knows math and/or loves beautiful science. \n\n**Comparison**\n\nThe idea differs from others repos because my structure is/will be scalable to add any 3d plot using only the model. I already added the Lorenz attractor and Rössler attractor, but many more will be added. \n\nI will cover all strange/chaotic attractors and related plots that I find beautiful, and improve the framework along the way. If you have any tip, I'm all ears, I plan to do more things using python to show the potential of the language in fields not so explored in the dev community (hard science). \n\nIf you want to simulate and generate a new 3d plot, create your PR.\n\nI will use this repo and this Instagram profile to show the progress:\n\nInstagram: https://www.instagram.com/science_plots_3d?igsh=eXhhOHF5NzV2aXV6\n\nGitHub: https://github.com/matheusvra/scientific_plots"
+  }
+]
